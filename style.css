@@ -117,18 +117,37 @@ a {
   text-decoration: underline;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
 /* media queres */
 @media (max-width: 780px) {
-  .grid-2 {
-    grid-template-columns: 1fr;
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+    .section-1 {
+      padding: 0;
+      padding-top: 5rem;
+    }
+    .section-2 {
+      padding: 0;
+      padding-left: 1.5rem;
+      padding-top: 2rem;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1em;
+    }
   }
-  .section-1 {
-    padding: 0;
-    padding-top: 5rem;
-  }
-  .section-2 {
-    padding: 0;
-    padding-left: 1.5rem;
-    padding-top: 2rem;
-  }
-}
